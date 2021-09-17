@@ -1,19 +1,17 @@
 # Back End
 
+How to start
 
-
-COMO INICIAR
-
-Crear el entorno
+# 1 Create virtual Enviroment
 pipenv shell
 
-Instalar dependencias
+# 2 install dependencies 
 pipenv install
 
-Crear las migraciones
+# 3 Migrate migrations 
 pipenv run init
-pipenv run migrate (skip if you have not made changes to the models on the `./src/api/models.py`)
+pipenv run migrate   (skip if you have not made changes to the models on the `./src/api/models.py`)
 pipenv run upgrade
 
-Ejecutar la API
+# 4 Run app
 pipenv run start
