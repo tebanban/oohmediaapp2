@@ -15,3 +15,9 @@ pipenv run upgrade
 
 # 4 Run app
 pipenv run start
+
+
+# To modify URL at .env
+mysql url: mysql://puadmin:*****@mysql.nuevo.publiexcr.com/sisvallas2021
+
+# To install Mysql module:  pip install mysqlclient
